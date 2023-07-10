@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(148, 36, 135);
+    color: rgb(251, 250, 250);
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 22rem auto;
+}
+
+
+.wrapper .sidebar{
+    width: 100%;
+    background-color: rgb(107, 28, 83);
+}
+
+.wrapper main {
+    width: 100%;
+    background-color: rgb(245, 155, 224);
+     color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(148, 36, 135);
+   
+}
+
+footer h3{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    
+}
