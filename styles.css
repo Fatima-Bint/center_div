@@ -20,12 +20,26 @@
 .wrapper .sidebar{
     width: 100%;
     background-color: rgb(107, 28, 83);
+    
 }
 
 .wrapper main {
     width: 100%;
     background-color: rgb(245, 155, 224);
-     color: white;
+    /*margin: 0 auto;
+    text-align: center;*/
+}
+
+.wrapper main .flexbox{
+    display: flex;
+    border: 2px solid;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 60vh;
+    width: 70%;
+    margin: 2rem;
 }
 
 footer{
