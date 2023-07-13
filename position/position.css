@@ -94,7 +94,7 @@ button#download{
     font-size: 1.2rem;
     font-weight: 600;
     cursor: pointer;
-    
+} 
 
 .sidebar ul li:hover{
     background-color: rgb(110, 133, 94);
