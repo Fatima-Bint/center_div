@@ -53,17 +53,16 @@
     order: 1;
 
   }
+
   .box-3{
     flex: 1;
     order: 3;
-
   }
+
   .container div, .container-3 div{
     border: 1px #ccc solid;
     padding: 10px;
   }
-
-
 
   .container-2 div{
     padding: 15px;

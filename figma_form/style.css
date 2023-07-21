@@ -4,13 +4,17 @@
    padding: 0;
  }
  
- body{font-size: 12px}
+ body{font-size: 12px;
+
+}
 
  .container{
    display: grid;
    grid-template-columns: 6% 15% auto ;
    height: 100vh;
    width: 100%;
+   border: 2px solid #ccc;
+
 
  }
 
@@ -41,7 +45,6 @@
  #settings{
    position: absolute;
     bottom: 0;
-    left: 0;
     display: flex;
    justify-content: center;
    padding: 5px;
@@ -57,13 +60,20 @@
    gap: 20px;
    border-right: solid 1.5px;
    border-color: rgba(133, 133, 133, 1);
+   justify-content: center;
     
  }
 
- .menu{ 
+
+ .menu{
    width: 100%;
    margin: 0;
+   justify-content: center;
 
+ }
+
+ .menubar.menu{
+  justify-content: center;
  }
 
  .menugroup{
@@ -81,16 +91,20 @@
    padding-left: 5px;
  }
  .main{
-   width: 100%;
+   max-width: 60%;
    display: grid;
    grid-template-rows: 50px 1fr;
+   gap: 20px;
    background-color: white;
    padding-top: 20px;
-   padding:0 10rem ;
+   padding-left: 5rem;
+  
  }
+
 header{
    display: flex;
-  justify-content: flex-end;
+   justify-content: space-between;
+
 
 }
  .image{
@@ -99,23 +113,56 @@ header{
  }
 
  form{
-   width: 100%;
    display: grid;
 }
 
 .form-group input{
-   width: 100%
+   width: 100%;
+   height: 40px;
+   border: rgba(133, 133, 133, 1) 1.5px solid;
+   border-radius: 3px;
 }
 
 .name{
    display: flex;
    width: 100%;
+   justify-content: space-between;
+   
 }
+
+.name input{
+  width: 15rem;
+}
+
 .location{
    display: flex;
+   width: 100%;
+   justify-content: space-between;
+
 }
 
 .form-group{
    display: flex;
    flex-direction: column;
+}
+
+label{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font: 20px;
+  font-weight: bold;
+}
+
+.form-group select{
+  width: 15rem;
+   height: 40px;
+   border: rgba(133, 133, 133, 1) 1.5px solid;
+   border-radius: 3px;
+}
+
+button{
+  background-color: rgba(255, 133, 44, 1);
+  width: 100px;
+  border: 0;
+  color: white;
+  
 }
