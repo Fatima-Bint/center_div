@@ -5,53 +5,74 @@
  }
  
  body{font-size: 12px;
+  height: 100vh;
 
 }
 
  .container{
    display: grid;
-   grid-template-columns: 6% 15% auto ;
-   height: 100vh;
-   width: 100%;
-   border: 2px solid #ccc;
-
+   grid-template-columns: 7% 20% 63% 10%;
+   max-height: 100%;
+   max-width: 100%;
+   margin: auto;
+   justify-content: center;
+  border: 1px solid rgba(133, 133, 133, 1);
+  scale: 0.8;
+  overflow: hidden;
+  
 
  }
 
  .sidebar{
+  height: 100vh;
+  padding: 0.5rem;
    background-color: rgba(255, 194, 151, 1);
-   display: grid;
-   margin: 0;
-   justify-content: center;
-   padding-top: 1rem;
-   grid-template-rows: 50px 1fr;
-   gap: 20px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
 
  }
- .logo{
-   width: 50px;
-   height: 50px;
-   border-radius: 100%;
 
+ .sidebar img{
+  justify-content: center;
+
+ }
+
+
+ .logo{
+   width:2rem;
+   height: 2rem;
+   border-radius: 100%;
+   
  }
  .icons .material-icons-outlined{
    color: rgba(255, 133, 44, 1);
    display: flex;
    justify-content: center;
-   padding-bottom: 3rem;
+   margin-top: 2rem;
+   
  }
 
- 
- #settings{
-   position: absolute;
-    bottom: 0;
-    display: flex;
+ .settings-icon{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   color: #fff;
+   display: flex;
    justify-content: center;
-   padding: 5px;
-   margin: auto;
-
+   align-items: center;
+   padding: 0;
+ 
+   
  }
+
+ .settings-icon span{
+  
+  color: #fff;
+ }
+
  .menubar{
+  height: 100vh;
    padding-top: 1rem;
    width: 100%;
    background-color: white;
@@ -64,7 +85,7 @@
     
  }
 
-
+ 
  .menu{
    width: 100%;
    margin: 0;
@@ -91,13 +112,15 @@
    padding-left: 5px;
  }
  .main{
-   max-width: 60%;
+  height: 100vh;
    display: grid;
    grid-template-rows: 50px 1fr;
    gap: 20px;
    background-color: white;
-   padding-top: 20px;
-   padding-left: 5rem;
+   padding: 3rem;
+   border: 2px black solid;
+
+  
   
  }
 
@@ -114,13 +137,14 @@ header{
 
  form{
    display: grid;
+   gap: 1rem;
 }
 
 .form-group input{
    width: 100%;
    height: 40px;
-   border: rgba(133, 133, 133, 1) 1.5px solid;
-   border-radius: 3px;
+   border: rgba(133, 133, 133, 1) 1px solid;
+   border-radius: 10px;
 }
 
 .name{
