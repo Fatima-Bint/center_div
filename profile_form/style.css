@@ -4,7 +4,6 @@
     padding: 0;
   }
   body{
-    background-color: #c234;
     display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +11,7 @@
   }
 
   .container{
-    background-color: #c892c8;
+    background-color: #84a98c;
     width: 60rem;
     height: 35rem;
     display: grid;
@@ -22,7 +21,7 @@
   }
 
   .content{
-    background-color: red;
+    background-color: #52796f;
     height: 30rem;
     width: 55rem;
     display: flex;
@@ -41,20 +40,64 @@
     gap: 1rem;
     
     
-
-
   }
 
   .details{
-    background-color: azure;
+    background-color: #354f52;
     height: 100%;
     width: 100%;
     border-radius: 5%;
   }
 
   .edit_profile{
-    background-color: bisque;
+    background-color: #354f52;
     height: 100%;
     width: 100%;
     border-radius: 5%;
+    padding: 3rem;
+
+
   }
+.form{
+    display:grid ;
+    gap: 1rem;
+    
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    height: 2.5rem;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #0d1828;
+
+}
+
+label{
+    color: #cad2c5;
+}
+
+button{
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #cad2c5;
+    color: #354f52;
+    cursor: pointer;
+    transform: all ease-in-out 0.5s;
+}
+
+button:hover{
+    background-color: #52796f;
+    color: #cad2c5;
+}
