@@ -13,6 +13,14 @@
 
  } 
 
+ 
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #778492;
+
+}
+
 header {
     background-color: #F5F5F5;
     
@@ -234,18 +242,85 @@ button i {
 
 }
 
-.edu-aside{
-    
-}
 
 .edu-info{
     background-color: #fff;
     border-radius: 3px;
     padding: 30px ;
-    display: flex;
-    flex-direction: column;
     height: fit-content;
+    margin-bottom: 40px;
   
+}
+.heading{
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+
+
+.edu-content .item{
+    margin-bottom: 30px;
+
+}
+
+.item .title{
+    font-size: 16px;
+    font-weight: 700;
+    color: #778492;
+    margin-bottom: 0.5rem;
+}
+
+
+.item .school{
+    font-family: "Lato", arial, sans-serif;
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+    padding-left: 25px;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    margin-top: 0.5px;
+}
+
+.item .school .year{
+    color: #b0b7bf;
+    font-weight: 500;
+}
+
+
+.edu-content .item:last-child{
+    margin-bottom: 0;
+}
+
+.skill-section{
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 30px ;
+    height: fit-content;
+    margin-bottom: 40px;
+  
+}
+
+.volun-section{
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 30px ;
+    height: fit-content;
+    margin-bottom: 40px;
+
+}
+.item{
+    color: #999;
+    margin-bottom: 20px;
+}
+
+
+.conf-section{
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 30px ;
+    height: fit-content;
+    margin-bottom: 40px;
 }
     
 
